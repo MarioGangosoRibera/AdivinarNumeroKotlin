@@ -1,0 +1,66 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Menú principal -->
+    <TextView
+        android:id="@+id/tvMenu"
+        android:text="Menú Principal"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnConfigurar"
+        android:text="1. Configurar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"/>
+
+    <Button
+        android:id="@+id/btnJugar"
+        android:text="2. Jugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"/>
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:text="3. Salir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"/>
+
+    <!-- Zona de juego -->
+    <TextView
+        android:id="@+id/tvJuego"
+        android:text=""
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/etNumero"
+        android:hint="Introduce un número"
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btnProbar"
+        android:text="Probar número"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"/>
+
+</LinearLayout>
